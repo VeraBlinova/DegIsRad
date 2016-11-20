@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QtWidgets>
 #include <QInputDialog>
-#include <QErrorMessage>
+#include <QMessageBox>
 
 namespace Ui {
 class Degisrad;

@@ -11,7 +11,8 @@ Degisrad::Degisrad(QWidget *parent) :
 }
 void Degisrad::s_printError(QString str)
 {
-(new QErrorMessage())->showMessage(str);
+    QMessageBox msg;
+    msg.critical(this, "Warning", str);
 };
 
 void Degisrad::on_btn_do_clicked()
